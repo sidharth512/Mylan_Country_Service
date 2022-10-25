@@ -4,6 +4,7 @@ import com.country_service_Services.CountryService;
 
 public class Addresponse {
 	String msg;
+	int id;
      public String getMsg() {
 		return msg;
 	}
@@ -16,7 +17,7 @@ public class Addresponse {
 	public void setId(int id) {
 		this.id = id;
 	}
-	int id;
+	
 	
 
 
